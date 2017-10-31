@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<canvas id="canvas" width="800" height="800"></canvas>
+	</body>
+	<script>
+		
+		var context = canvas.getContext('2d');
+		context.fillStyle = 'rgba(169,169,169,0.5)';
+		context.fillRect(20,20,100,100);
+		
+		context.clearRect(20,20,100,100);//清除指定矩形区域，让清除部分完全透明
+		
+	</script>
+</html>
