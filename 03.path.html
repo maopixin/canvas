@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+		<canvas id="canvas" width="800" height="800"></canvas>
+	</body>
+	<script>
+		var ctx = canvas.getContext('2d');
+
+		ctx.beginPath();//新建一条路径，生成之后，图形绘制命令被指向到路径上生成路径。
+		ctx.moveTo(75, 50);//起始位置
+		ctx.lineTo(100, 75);
+		ctx.lineTo(100, 25);
+		ctx.fill();//填充
+		
+	</script>
+
+</html>
